@@ -11,7 +11,10 @@ Primitive data types can be sorted into 4+1 main categories:
 
 ## Booleans
 
-Booleans (named after George Bool) are the simplest datatype of them all. They either hold a `true` or a `false` value. This is represented in **one bit** as either a `1` (`true`) or `0` (`false`). To use the `bool` type don't forget to import the `stdbool.h` library.
+Booleans (named after George Bool) are the simplest datatype of them all. They either hold a `true` or a `false` value. This is represented in **one bit** as either a `1` (`true`) or `0` (`false`).
+
+> [!WARNING]
+> To use the `bool` type don't forget to include the `stdbool.h` library.
 
 Example usage:
 
@@ -81,7 +84,10 @@ long z = 10000000;
 long long y = 100000000000;
 ```
 
-The types of `stdint.h`:
+The types of `stdint.h`
+
+> [!WARNING]
+> To use these type don't forget to include the `stdint.h` library.
 
 ```c
 uint8_t c = 65; // MAX 255
