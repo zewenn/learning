@@ -47,7 +47,7 @@ This is the basic simple project all languages use as a demo, this will introduc
    ```c
     #include <stdio.h> // This includes the sdtio.h file, which contains the printf function
 
-    int main() // Enter point for out function
+    int main() // Entry point for the program
     {
         printf("Hello World!\n"); // Writing to the terminal
         return 0; // Returning the programs exit code

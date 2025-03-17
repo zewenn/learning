@@ -2,7 +2,7 @@
 
 This is my tutorial sharing repo, hope you fund what you need.
 
-## [The `C` Curse](./c/)
+## [The `C` Course](./c/)
 
 > [!IMPORTANT]
 > This curse is incomplete and will recieve weekly updates.
