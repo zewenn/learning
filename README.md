@@ -13,9 +13,9 @@ Zero to Hero `C` curse for beginners:
 1. [Variable types (`int`, `float`, `char`, `T[N]`) _(WIP - 2025.03.25.)_](./c/l1_variables/handout.md)
 1. Conditionals _(planned)_
 1. While & For Loops _(planned)_
-1. Methods _(planned)_
 1. Structures _(planned)_
 1. Pointers _(planned)_
+1. Methods _(planned)_
 1. Heap allocation _(planned)_
 1. The Preprocessor _(planned)_
 1. Writing an ArrayList implementation
