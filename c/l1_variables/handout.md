@@ -7,11 +7,11 @@ Primitive data types can be sorted into 4+1 main categories:
 1. [Integers](#integers)
 1. [Floating Point Numbers](#floating-point-numbers)
 1. [Characters](#characters)
-1. Arrays (semi-complex)
+1. void, of which we will learn about later
 
 ## Booleans
 
-Booleans (named after George Bool) are the simplest datatype of them all. They either hold a `true` or a `false` value. This is represented in **one bit** as either a `1` (`true`) or `0` (`false`).
+Booleans (named after George Bool) are the simplest datatype of them all. They either hold a `true` or a `false` value. This is represented in **one bit** as either a `1` (`true`) or `0` (`false`). To use the `bool` type don't forget to import the `stdbool.h` library.
 
 Example usage:
 
