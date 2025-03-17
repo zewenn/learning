@@ -45,7 +45,7 @@ This is the basic simple project all languages use as a demo, this will introduc
 3. Paste in the following code which we will analyse later:
 
    ```c
-    #include <stdio.h> // This includes the sdtio.h file, which contains the printf function
+    #include <stdio.h> // This includes the stdio.h file, which contains the printf function
 
     int main() // Entry point for the program
     {
@@ -80,7 +80,7 @@ Let's go line by line:
 
 1. #### What did `#include` do?
 
-   For now we only need to think of `#include` as a way to, well, include an entire other file in our program. This means all contents of the file after the `#include` statement will be clopied into the main.c file at compile time.
+   For now we only need to think of `#include` as a way to, well, include an entire other file in our program. This means all contents of the file after the `#include` statement will be copied into the main.c file at compile time.
 
    ##### Okay, so what is compile time?
 
@@ -89,7 +89,7 @@ Let's go line by line:
 
 2. #### So what is `<stdio.h>`
 
-   `stdio.h` is the header file, we will learn about header files later, for now you only need to know that `stdio.h` is contained in the **C Standard Library**. The **C Standard Library** or **std** provides neccessary functions to communicate to the os. In this case we include the `stdio` file which handles IO stuff (IO meaning Input-Output, that's why its named stdIO).
+   `stdio.h` is the header file, we will learn about header files later, for now you only need to know that `stdio.h` is contained in the **C Standard Library**. The **C Standard Library** or **std** provides necessary functions to communicate to the os. In this case we include the `stdio` file which handles IO stuff (IO meaning Input-Output, that's why its named stdIO).
 
    ##### `<>` vs. `""`
 
@@ -117,6 +117,6 @@ Let's go line by line:
 
 6. #### The brackets: `{}`
 
-   You may have noticed the brackets around the piece of code containing `printf` and `return`. This is the **function body** of the main function, and code that's within brackets (`{}`) is called a **code block**. So main is a function that executes the code block after the function decleration (meaning `FUNCION DECLARATION HERE --> int main() {<-- CODE BLOCK HERE -->}`).
+   You may have noticed the brackets around the piece of code containing `printf` and `return`. This is the **function body** of the main function, and code that's within brackets (`{}`) is called a **code block**. So main is a function that executes the code block after the function declaration (meaning `FUNCTION DECLARATION HERE --> int main() {<-- CODE BLOCK HERE -->}`).
 
 So that concludes our lesson for the day, hope you had fun, see you next time!
