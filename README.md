@@ -11,8 +11,10 @@ Zero to Hero `C` curse for beginners:
 
 0. [Toolchain and HelloWorld](./c/l0_toolchain/handout.md)
 1. [Variable types (`int`, `float`, `char`, `bool`)](./c/l1_variables/handout.md)
-   > [!TIP]
-   > [ake a quick quiz about the previous topics [here](https://quizizz.com/admin/quiz/67da9f1e3b5a2abf688aab6a).
+
+> [!TIP]
+> Take a quick quiz about the previous topics [here](https://quizizz.com/admin/quiz/67da9f1e3b5a2abf688aab6a).
+
 2. Operators _(planned)_
 3. Conditionals _(planned)_
 4. While & For Loops _(planned)_
