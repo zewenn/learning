@@ -10,7 +10,7 @@ Why do we need to use logical operators? Because we do not know the user's input
 
 We will use `if` statements to differentiate between possibilities.
 
-Example:
+[Example](./examples/1_argc.c):
 
 ```c
 
@@ -38,7 +38,7 @@ So, we are printing the first and the second arguments. But what is there is no 
 
 ## So let's handle user input!
 
-Example:
+[Example](./examples/2_argv.c):
 
 ```c
 #include <stdlib.h>
@@ -81,7 +81,7 @@ Here we have two new building blocks: `else` and `strcmp`.
 
 ## Alright, but what if there's more?
 
-Example:
+[Example](./examples/3_elseif):
 
 ```c
 #include <stdlib.h>
@@ -117,8 +117,9 @@ Now we have the holy trinity, `if`, `else`, and `else if`. `else if` is used to 
 
 Using many `else if` and `else` statements if concidered bad by modern standards. They are concidered bad practice, since they reduce readability by a great amount.
 
+[Example](./examples/4_never_nest.c):
+
 ```c
-// examples/4_never_nest.c
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
