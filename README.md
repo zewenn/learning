@@ -16,7 +16,7 @@ Zero to Hero `C` curse for beginners:
 > Take a quick quiz about the previous topics [here](https://quizizz.com/admin/quiz/67da9f1e3b5a2abf688aab6a).
 
 2. [Operators](./c/l2_operators/handout.md)
-3. Conditionals _(planned)_
+3. [Conditionals](./c/l3_conditionals/handout.md)
 4. While & For Loops _(planned)_
 5. Structures _(planned)_
 6. Pointers _(planned)_
