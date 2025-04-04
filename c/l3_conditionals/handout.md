@@ -147,8 +147,12 @@ int main(int argc, char **argv)
 }
 ```
 
-The tactic used above is called *early returning*, and this is a commond tactic in Never Nested code. We have already used this for error checking before, but we can use it with other value comparisons too.
+The tactic used above is called _early returning_, and this is a commond tactic in Never Nested code. We have already used this for error checking before, but we can use it with other value comparisons too.
 
 This is useful, since code readablity has increased. You do not need to keep all of the conditions in mind, you can just focus on the current one.
 
 If you are interested in this topic, I recommend [this video](https://www.youtube.com/watch?v=CFRhGnuXG-4).
+
+## Homework!
+
+If you are ready, you can do your [homework](./homework.md)!
