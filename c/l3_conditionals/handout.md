@@ -28,6 +28,8 @@ int main(int argc, char **argv)
     {
         printf("arg 1: %s", argv[1]);
     }
+    
+    return 0;
 }
 
 ```
@@ -61,6 +63,8 @@ int main(int argc, char **argv)
     {
         printf("Incorrect password!");
     }
+
+    return 0;
 }
 ```
 
@@ -108,6 +112,8 @@ int main(int argc, char **argv)
     {
         printf("I haven't tried %s yet!", argv[1]);
     }
+
+    return 0;
 }
 ```
 
@@ -145,6 +151,7 @@ int main(int argc, char **argv)
     }
 
     printf("I haven't tried %s yet!", argv[1]);
+    return 0;
 }
 ```
 
