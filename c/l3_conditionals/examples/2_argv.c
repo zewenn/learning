@@ -18,4 +18,6 @@ int main(int argc, char **argv)
     {
         printf("Incorrect password!");
     }
+
+    return 0;
 }

@@ -23,4 +23,6 @@ int main(int argc, char **argv)
     {
         printf("I haven't tried %s yet!", argv[1]);
     }
+
+    return 0;
 }
